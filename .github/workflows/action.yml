@@ -25,4 +25,4 @@ jobs:
 
       - name: Run Locust
         run: |
-          locust -f ./locustfile.py --host=https://insidesas.com -u 1 -r 1 -t 10s
+          locust -f ./locustfile.py --headless --host=https://insidesas.com -u 1 -r 1 -t 10s
